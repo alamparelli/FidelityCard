@@ -223,7 +223,7 @@ struct cardDetailsView: View {
                 fidelityCard(fromHistoric: fromHistoric, card: card)
                 
                 if fromHistoric {
-                    Text("The card is completed.\nGenerate a QRCode or a PINCODE to claim your reward")
+                    Text("\(card.status == "cardCompleted" ? "This card is completed.\n Generate a QRCode to claim the Rewards" : "This card is Redeemed.")")
                         .foregroundStyle(.greenEmeraude)
                         .font(.title3)
                         .fontWeight(.medium)
@@ -316,6 +316,11 @@ struct cardDetailsView: View {
                 }
                 
                 Spacer()
+            }
+            .onAppear {
+                if fromHistoric {
+                    card = try! currentCard.getCard(cardID: cardID, modelContext: modelContext)
+                }
             }
             .navigationTitle("\(card.name)")
             .toolbar {

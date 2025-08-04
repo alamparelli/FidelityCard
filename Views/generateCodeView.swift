@@ -146,11 +146,12 @@ struct generateCodeView: View {
                                             
                         manageCard.addNewCard(card: card, modelContext: modelContext, stampsToReport: stampsToReport)
                     }
+                    
                     dismiss()
                 } else {
                     card.status = "cardRedeemed"
-
                     showSuccesReward = true
+                    
                 }
             } label: {
                 Label("Debug Options", systemImage: "gearshape.fill")
