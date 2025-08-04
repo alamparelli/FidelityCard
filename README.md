@@ -43,13 +43,14 @@ The application targets end consumers and is part of a B2B ecosystem where merch
 
 ## 📱 Screenshots
 
-| Home Screen | Card Details | Add Card |
+| Home Screen | Card Details | QR Code Validation |
 |:---:|:---:|:---:|
-| <img src="https://github.com/user-attachments/assets/9594d835-8b3c-4c08-82e7-594f4e221b3d" width="200" alt="Home screen showing loyalty cards list" /> | <img src="https://github.com/user-attachments/assets/6686a851-ebb8-4906-869b-69b57dd05754" width="200" alt="Card details with stamp progression" /> | <img src="https://github.com/user-attachments/assets/ad83c0d6-2edd-4e92-a9b7-d99b86c24763" width="200" alt="Add new card interface" /> |
+| <img src="https://github.com/user-attachments/assets/9594d835-8b3c-4c08-82e7-594f4e221b3d" width="200" alt="Home screen showing loyalty cards list" /> | <img src="https://github.com/user-attachments/assets/6686a851-ebb8-4906-869b-69b57dd05754" width="200" alt="Card details with stamp progression" /> | <img src="https://github.com/user-attachments/assets/ad83c0d6-2edd-4e92-a9b7-d99b86c24763" width="200" alt="In-store validation screen displaying unique QR code for merchant to scan and add stamps" />
+ |
 
-| Edit Card | QR Code Validation |
+| Add Card | Historic of a Card |
 |:---:|:---:|
-| <img src="https://github.com/user-attachments/assets/ac73d02a-3a48-4463-a2b5-98f68cba3400" width="200" alt="Edit existing card interface" /> | <img width="200" alt="Validation screen with generated QR code" src="https://github.com/user-attachments/assets/94cd174b-ce52-411c-a387-e27937d6b010" /> |
+| <img src="https://github.com/user-attachments/assets/ac73d02a-3a48-4463-a2b5-98f68cba3400" width="200" alt="Add loyalty card screen showing list of available stores and merchants to select from" /> | <img width="200" alt="Card history screen displaying past visits and stamp collection activity for a specific loyalty card" src="https://github.com/user-attachments/assets/94cd174b-ce52-411c-a387-e27937d6b010" /> |
 
 ## 🔧 Technical Architecture
 
